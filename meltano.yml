@@ -28,3 +28,6 @@ plugins:
     config:
       filepath: output/my.duckdb
       default_target_schema: raw
+  - name: target-postgres
+    variant: meltanolabs
+    pip_url: meltanolabs-target-postgres
