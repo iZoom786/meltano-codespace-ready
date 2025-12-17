@@ -17,7 +17,10 @@ plugins:
       files:
       - entity: raw_customers
         path: data/customers.csv
-        keys: [id] 
+        keys: [id]
+  - name: tap-postgres
+    variant: meltanolabs
+    pip_url: meltanolabs-tap-postgres
   loaders:
   - name: target-duckdb
     variant: jwills
